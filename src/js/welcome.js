@@ -1,8 +1,8 @@
-import './style.css';
-import Cartoon from './katong.jpg';
-// import Data from './data.xml';
-// import printMe from './print.js';
-// import logMe from './log.js';
+import '../css/welcome.css';
+import Cartoon from '../img/katong.jpg';
+
+import cry from './cry.js';
+// import laugh from './laugh.js';
 
 var elDiv1 = document.createElement('div');
 elDiv1.setAttribute('class', 'div');
@@ -27,3 +27,8 @@ btn.onclick = function() {
   });
 };
 elDiv2.appendChild(btn);
+cry();
+import('./laugh.js').then(m => {
+	// console.log(m);
+	m.default()
+});
