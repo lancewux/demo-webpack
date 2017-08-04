@@ -14,3 +14,4 @@ index.html对应打包入口welcome，把welcome.js和cry.js打包在一起
 welcome.css则单独提取了出来，实现js和css的分离
 
 用import把laugh.js和cry.js拆分出来，实现代码拆分，然后按需加载cry.js。
+
